@@ -1,1 +1,0 @@
-php4_safe_mode off

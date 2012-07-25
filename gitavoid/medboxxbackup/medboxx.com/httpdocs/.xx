@@ -1,6 +1,0 @@
-<FilesMatch "callpostback.php">
-AuthType none
-Satisfy any 
-</FilesMatch> 
-
- 

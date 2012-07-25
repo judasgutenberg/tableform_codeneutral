@@ -1,9 +1,0 @@
-
-
-<FilesMatch "">
-AuthType none
-Satisfy any 
-</FilesMatch> 
-
-
- 

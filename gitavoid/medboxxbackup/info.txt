@@ -1,9 +1,0 @@
-startlogic:
-
-http://www.startlogic.com/controlpanel/beta/
-thompsonsquare
-lc727727
-
-also 
-root
-#rooster19

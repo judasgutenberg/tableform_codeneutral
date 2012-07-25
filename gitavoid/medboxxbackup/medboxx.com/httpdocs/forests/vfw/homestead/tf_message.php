@@ -1,4 +1,0 @@
-<script>
-window.close();
-
-</script>

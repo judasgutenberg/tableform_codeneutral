@@ -1,5 +1,0 @@
-Authors for txtSQL
-===================================================================================================
-	NAME		ALIAS		EMAIL			ROLE
---------------------------------------------------------------------------------------------------
-1	Faraz Ali	ChibiGuy	FarazAli@gmail.com	Lead developer and project founder
