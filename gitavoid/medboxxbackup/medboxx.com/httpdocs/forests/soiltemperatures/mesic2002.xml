@@ -1,0 +1,18 @@
+
+<graph bgcolor="cc9999" xaxisname="Month" yaxisname="degrees C" caption="Mesic Slope Forest 2002"  width="600"  yaxisminvalue="0" yaxismaxvalue="25" linecolor="660000" linethickness="2" pointlabel="O" bgcolor="00ff00">
+
+	<set date="4/2/2002" value="8"  /> 
+ 	<set date="4/15/2002" value="12"  />
+	<set date="4/30/2002" value="11"  /> 
+	<set date="5/8/2002" value="13.5"  /> 
+	<set date="5/19/2002" value="11.5"  /> 
+	<set date="5/29/2002" value="15"  /> 
+	<set date="6/16/2002" value="16"  /> 
+	<set date="7/9/2002" value="20"  /> 
+	<set date="7/21/2002" value="21"  /> 
+	<set date="8/26/2002" value="19.5"  /> 
+	<set date="9/8/2002" value="18"  /> 
+	<set date="9/20/2001" value="18.5"  /> 
+	
+
+</graph>

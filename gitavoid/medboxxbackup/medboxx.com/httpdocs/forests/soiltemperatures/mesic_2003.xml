@@ -1,0 +1,34 @@
+
+<graph bgcolor="eeeeee" xaxisname="Month" yaxisname="degrees C" caption="Mesic Slope Forest 2001"  width="600"  yaxisminvalue="0" yaxismaxvalue="25" linecolor="cccccc" linethickness="2" pointlabel=" "  >
+
+	<set date="4/8/2001" value="10"  /> 
+	<set date="4/24/2001" value="13.5"  />
+	<set date="5/5/2001" value="15"  />
+	<set date="5/22/2001" value="13.5"  />
+	<set date="6/8/2001" value="16"  />
+	<set date="6/26/2001" value="17.5"  />
+	<set date="7/13/2001" value="17.5"  />
+	<set date="7/24/2001" value="19.5"  />
+	<set date="8/7/2001" value="20"  />
+	<set date="8/25/2001" value="19"  />
+	<set date="9/17/2001" value="16"  />
+	<set date="10/4/2001" value="15"  />
+	<set date="10/22/2001" value="13.5"  />
+	 
+	 
+	 
+</graph>
+
+<graph bgcolor="eeeeee" xaxisname="Month" yaxisname="degrees C" caption="Mesic Slope Forest 2001"  width="600"  yaxisminvalue="0" yaxismaxvalue="25" linecolor="cccccc" linethickness="2" pointlabel="O" mode="isolate" >
+
+	<set date="4/12/2001" value="6.5"  /> 
+	<set date="4/24/2001" value="9"  /> 
+	<set date="5/3/2001" value="13"  /> 
+	<set date="6/2/2001" value="12"  /> 
+	<set date="6/22/2001" value="15"  /> 
+	<set date="7/20/2001" value="18"  /> 
+	<set date="9/16/2001" value="16.5"  /> 
+	 
+	 
+	 
+</graph>

@@ -1,0 +1,26 @@
+
+<graph bgcolor="FFFFDD" xaxisname="Month" yaxisname="degrees C" caption="Ramsey's Draft 2001"  width="600"  yaxisminvalue="0" yaxismaxvalue="25" xaxisminvalue="2/4/2001" linecolor="ff0000"  pointlabel="O" bgcolor="00ff00">
+
+    <set date="4/22/2001" value="10"  /> 
+    <set date="6/3/2001" value="12"  /> 
+    <set date="6/21/2001" value="17"   /> 
+    <set date="7/27/2001" value="17"   /> 
+    <set date="8/14/2001" value="18"   />
+    <set date="9/10/2001" value="17.5"  /> 
+    <set date="10/10/2001" value="12"   /> 
+	<set date="11/2/2001" value="12"   />
+
+</graph>
+<graph bgcolor="FFFFDD" xaxisname="Month" yaxisname="degrees C" caption="Ramsey's Draft 2001"  width="600"  yaxisminvalue="0" yaxismaxvalue="25" linecolor="009900"   pointlabel="O" bgcolor="00ff00">
+
+    <set date="4/22/2001" value="8"  /> 
+    <set date="6/3/2001" value="12"  /> 
+    <set date="6/21/2001" value="13.5"   /> 
+    <set date="7/27/2001" value="15"   /> 
+    <set date="8/14/2001" value="16.5"   />
+    <set date="9/10/2001" value="17"  /> 
+    <set date="10/10/2001" value="13.5"   /> 
+	<set date="11/2/2001" value="13"   />
+
+</graph>
+

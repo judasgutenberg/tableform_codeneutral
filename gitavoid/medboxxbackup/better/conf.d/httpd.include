@@ -1,0 +1,156 @@
+# ATTENTION!
+# DO NOT MODIFY THIS FILE OR ANY PART OF IT. THIS CAN RESULT IN IMPROPER PLESK
+# FUNCTIONING OR FAILURE, CAUSE DAMAGE AND LOSS OF DATA. IF YOU REQUIRE CUSTOM
+# MODIFICATIONS TO BE APPLIED TO THE CONFIGURATION, PLEASE, PERFORM THEM IN THE
+# FOLLOWING FILE(S):
+# /var/www/vhosts/medboxx.com/conf/vhost.conf
+# /var/www/vhosts/medboxx.com/subdomains/<subdomain-name>/conf/vhost.conf
+
+<VirtualHost 64.150.169.145:80>
+	ServerName   medboxx.com:80
+	ServerAlias  www.medboxx.com
+	UseCanonicalName Off
+	ServerAdmin  "bigfun@verizon.net"
+	DocumentRoot /var/www/vhosts/medboxx.com/httpdocs
+	CustomLog  /var/www/vhosts/medboxx.com/statistics/logs/access_log plesklog
+	ErrorLog  /var/www/vhosts/medboxx.com/statistics/logs/error_log
+<IfModule mod_userdir.c>
+	UserDir /var/www/vhosts/medboxx.com/web_users
+</IfModule>
+	<IfModule mod_ssl.c>
+		SSLEngine off
+	</IfModule>
+	<Directory /var/www/vhosts/medboxx.com/httpdocs>
+	<IfModule mod_php4.c>
+		php_admin_flag engine on
+		php_admin_flag safe_mode off
+		php_admin_value open_basedir "/var/www/vhosts/medboxx.com/httpdocs:/tmp"
+	</IfModule>
+	<IfModule mod_php5.c>
+		php_admin_flag engine on
+		php_admin_flag safe_mode off
+		php_admin_value open_basedir "/var/www/vhosts/medboxx.com/httpdocs:/tmp"
+	</IfModule>
+		Options -Includes -ExecCGI
+	</Directory>
+	<Directory /var/www/vhosts/medboxx.com/web_users>
+	<IfModule mod_php4.c>
+		php_admin_flag engine off
+	</IfModule>
+	<IfModule mod_php5.c>
+		php_admin_flag engine off
+	</IfModule>
+	</Directory>
+</VirtualHost>
+
+<VirtualHost 64.150.169.145:80>
+	ServerName   dayboxx.com:80
+	ServerAlias  www.dayboxx.com
+	UseCanonicalName Off
+	ServerAdmin  "bigfun@verizon.net"
+	DocumentRoot /var/www/vhosts/dayboxx.com/httpdocs
+	CustomLog  /var/www/vhosts/dayboxx.com/statistics/logs/access_log plesklog
+	ErrorLog  /var/www/vhosts/dayboxx.com/statistics/logs/error_log
+<IfModule mod_userdir.c>
+	UserDir /var/www/vhosts/dayboxx.com/web_users
+</IfModule>
+	<IfModule mod_ssl.c>
+		SSLEngine off
+	</IfModule>
+	<Directory /var/www/vhosts/dayboxx.com/httpdocs>
+	<IfModule mod_php4.c>
+		php_admin_flag engine on
+		php_admin_flag safe_mode off
+		php_admin_value open_basedir "/var/www/vhosts/dayboxx.com/httpdocs:/tmp"
+	</IfModule>
+	<IfModule mod_php5.c>
+		php_admin_flag engine on
+		php_admin_flag safe_mode off
+		php_admin_value open_basedir "/var/www/vhosts/dayboxx.com/httpdocs:/tmp"
+	</IfModule>
+		Options -Includes -ExecCGI
+	</Directory>
+	<Directory /var/www/vhosts/dayboxx.com/web_users>
+	<IfModule mod_php4.c>
+		php_admin_flag engine off
+	</IfModule>
+	<IfModule mod_php5.c>
+		php_admin_flag engine off
+	</IfModule>
+	</Directory>
+</VirtualHost>
+
+
+<VirtualHost 64.150.169.145:80>
+	ServerName   vetboxx.com:80
+	ServerAlias  www.vetboxx.com
+	UseCanonicalName Off
+	ServerAdmin  "bigfun@verizon.net"
+	DocumentRoot /var/www/vhosts/vetboxx.com/httpdocs
+	CustomLog  /var/www/vhosts/vetboxx.com/statistics/logs/access_log plesklog
+	ErrorLog  /var/www/vhosts/vetboxx.com/statistics/logs/error_log
+<IfModule mod_userdir.c>
+	UserDir /var/www/vhosts/vetboxx.com/web_users
+</IfModule>
+	<IfModule mod_ssl.c>
+		SSLEngine off
+	</IfModule>
+	<Directory /var/www/vhosts/vetboxx.com/httpdocs>
+	<IfModule mod_php4.c>
+		php_admin_flag engine on
+		php_admin_flag safe_mode off
+		php_admin_value open_basedir "/var/www/vhosts/vetboxx.com/httpdocs:/tmp"
+	</IfModule>
+	<IfModule mod_php5.c>
+		php_admin_flag engine on
+		php_admin_flag safe_mode off
+		php_admin_value open_basedir "/var/www/vhosts/vetboxx.com/httpdocs:/tmp"
+	</IfModule>
+		Options -Includes -ExecCGI
+	</Directory>
+	<Directory /var/www/vhosts/vetboxx.com/web_users>
+	<IfModule mod_php4.c>
+		php_admin_flag engine off
+	</IfModule>
+	<IfModule mod_php5.c>
+		php_admin_flag engine off
+	</IfModule>
+	</Directory>
+</VirtualHost>
+
+<VirtualHost 64.150.169.145:80>
+	ServerName   glamourboxx.com:80
+	ServerAlias  www.glamourboxx.com
+	UseCanonicalName Off
+	ServerAdmin  "bigfun@verizon.net"
+	DocumentRoot /var/www/vhosts/glamourboxx.com/httpdocs
+	CustomLog  /var/www/vhosts/glamourboxx.com/statistics/logs/access_log plesklog
+	ErrorLog  /var/www/vhosts/glamourboxx.com/statistics/logs/error_log
+<IfModule mod_userdir.c>
+	UserDir /var/www/vhosts/glamourboxx.com/web_users
+</IfModule>
+	<IfModule mod_ssl.c>
+		SSLEngine off
+	</IfModule>
+	<Directory /var/www/vhosts/glamourboxx.com/httpdocs>
+	<IfModule mod_php4.c>
+		php_admin_flag engine on
+		php_admin_flag safe_mode off
+		php_admin_value open_basedir "/var/www/vhosts/glamourboxx.com/httpdocs:/tmp"
+	</IfModule>
+	<IfModule mod_php5.c>
+		php_admin_flag engine on
+		php_admin_flag safe_mode off
+		php_admin_value open_basedir "/var/www/vhosts/glamourboxx.com/httpdocs:/tmp"
+	</IfModule>
+		Options -Includes -ExecCGI
+	</Directory>
+	<Directory /var/www/vhosts/glamourboxx.com/web_users>
+	<IfModule mod_php4.c>
+		php_admin_flag engine off
+	</IfModule>
+	<IfModule mod_php5.c>
+		php_admin_flag engine off
+	</IfModule>
+	</Directory>
+</VirtualHost>

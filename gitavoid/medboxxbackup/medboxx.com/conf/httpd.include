@@ -1,0 +1,70 @@
+# ATTENTION!
+# DO NOT MODIFY THIS FILE OR ANY PART OF IT. THIS CAN RESULT IN IMPROPER PLESK
+# FUNCTIONING OR FAILURE, CAUSE DAMAGE AND LOSS OF DATA. IF YOU REQUIRE CUSTOM
+# MODIFICATIONS TO BE APPLIED TO THE CONFIGURATION, PLEASE, PERFORM THEM IN THE
+# FOLLOWING FILE(S):
+# /var/www/vhosts/medboxx.com/conf/vhost.conf
+# /var/www/vhosts/medboxx.com/subdomains/<subdomain-name>/conf/vhost.conf
+
+<VirtualHost 64.150.169.145:80>
+	ServerName   medboxx.com:80
+	ServerAlias  www.medboxx.com
+	UseCanonicalName Off
+	DocumentRoot /var/www/vhosts/medboxx.com/httpdocs
+	CustomLog  /var/www/vhosts/medboxx.com/statistics/logs/access_log plesklog
+	ErrorLog  /var/www/vhosts/medboxx.com/statistics/logs/error_log
+<IfModule mod_userdir.c>
+	UserDir /var/www/vhosts/medboxx.com/web_users
+</IfModule>
+	<IfModule mod_ssl.c>
+		SSLEngine off
+	</IfModule>
+	<Directory /var/www/vhosts/medboxx.com/httpdocs>
+	<IfModule mod_perl.c>
+	<Files ~ (\.asp$)>
+		SetHandler perl-script
+		PerlHandler Apache::ASP
+		PerlSetVar Global /tmp
+	</Files>
+	</IfModule>
+	<IfModule mod_php4.c>
+		php_admin_flag engine on
+		php_admin_flag safe_mode off
+		php_admin_value open_basedir "/var/www/vhosts/medboxx.com/httpdocs:/tmp"
+	</IfModule>
+	<IfModule mod_php5.c>
+		php_admin_flag engine on
+		php_admin_flag safe_mode off
+		php_admin_value open_basedir "/var/www/vhosts/medboxx.com/httpdocs:/tmp"
+	</IfModule>
+		Options +Includes -ExecCGI
+	</Directory>
+	<Directory /var/www/vhosts/medboxx.com/web_users>
+	<IfModule mod_php4.c>
+		php_admin_flag engine off
+	</IfModule>
+	<IfModule mod_php5.c>
+		php_admin_flag engine off
+	</IfModule>
+	</Directory>
+	<Directory "/var/www/vhosts/medboxx.com/httpdocs">
+		AuthType Basic
+		AuthName " "
+		AuthUserFile /var/www/vhosts/medboxx.com/pd/d..httpdocs
+		require  valid-user
+	</Directory>
+	Alias "/error_docs" "/var/www/vhosts/medboxx.com/error_docs"
+	ErrorDocument 400 /error_docs/bad_request.html
+	ErrorDocument 401 /error_docs/unauthorized.html
+	ErrorDocument 403 /error_docs/forbidden.html
+	ErrorDocument 404 /error_docs/not_found.html
+	ErrorDocument 500 /error_docs/internal_server_error.html
+	ErrorDocument 405 /error_docs/method_not_allowed.html
+	ErrorDocument 406 /error_docs/not_acceptable.html
+	ErrorDocument 407 /error_docs/proxy_authentication_required.html
+	ErrorDocument 412 /error_docs/precondition_failed.html
+	ErrorDocument 415 /error_docs/unsupported_media_type.html
+	ErrorDocument 501 /error_docs/not_implemented.html
+	ErrorDocument 502 /error_docs/bad_gateway.html
+</VirtualHost>
+

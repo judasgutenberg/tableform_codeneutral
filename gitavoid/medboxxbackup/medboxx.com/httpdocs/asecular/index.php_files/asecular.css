@@ -1,0 +1,215 @@
+ body
+ {
+	margin:0px;
+ 	background-color:#ddddcc;
+	font-family: Frutiger;
+ }
+
+ *.caption
+{
+
+font-family: Frutiger;
+color: #999999;
+ font-size: 10px;
+ 
+}
+
+p.caption
+{
+
+font-family: Frutiger;
+color: #999999;
+ font-size: 10px;
+ 
+}
+
+body.caption
+{
+
+font-family: Frutiger;
+color: #999999;
+ font-size: 10px;
+ 
+}
+
+dd.caption
+{
+
+font-family: Frutiger;
+color: #999999;
+ font-size: 10px;
+ 
+}
+
+safe.caption
+{
+
+font-family: Frutiger;
+color: #999999;
+font-size: 10px;
+ 
+}
+
+
+ *.footnote
+{
+
+font-family: Frutiger;
+color: #999999;
+font-size: 9px;
+ 
+}
+
+.title
+{
+font-size: 22pt;
+font-family: Frutiger;
+color: #aaaa99;
+line-height: 34pt;
+font-weight: bold;
+letter-spacing:0.2em
+}
+
+ .littlenav
+{
+font-size: 10pt;
+font-family: Frutiger;
+ 
+ 
+}
+
+
+body
+{
+FONT-FAMILY:  Frutiger;
+FONT-SIZE: 12pt;
+letter-spacing:0.1em;
+}
+
+
+text
+{
+FONT-FAMILY:  Frutiger;
+FONT-SIZE: 12pt;
+letter-spacing:0.1em;
+}
+
+p
+{
+FONT-FAMILY:  Frutiger;
+FONT-SIZE: 12pt;
+letter-spacing:0.1em;
+}
+
+
+a:link
+{
+
+    COLOR: #660000;
+    TEXT-DECORATION: none;
+  TEXT-DECORATION: underline;
+}
+
+a:visited
+{
+  
+    COLOR: #000066;
+    TEXT-DECORATION: none;
+  TEXT-DECORATION: underline;
+}
+
+a:active
+{
+
+    TEXT-DECORATION: underline;
+ 
+}
+ 
+a:hover 
+{ 
+COLOR: #cc6600;
+ TEXT-DECORATION: underline;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+a.nav:link
+{
+    FONT-FAMILY:  Frutiger;
+    COLOR: #000000;
+    TEXT-DECORATION: none;
+    FONT-SIZE: 14pt;
+}
+
+a.nav:visited
+{
+    FONT-FAMILY:  Frutiger;
+    COLOR: #000000;
+    TEXT-DECORATION: none;
+    FONT-SIZE: 14pt;
+}
+
+a.nav:active
+{
+    FONT-FAMILY: Frutiger;
+    TEXT-DECORATION: underline;
+    FONT-SIZE: 14pt;
+}
+ 
+a.nav:hover 
+{ 
+color: #006633;
+font-size:14pt;
+ TEXT-DECORATION: underline;
+background-color: ccffcc;
+} 
+
+input.btn{
+   color:#050;
+   font-family: Frutiger ;
+   font-size:18px;
+   font-weight:bold;
+   background-color:#99cc99;
+   border:1px solid;
+   border-top-color:#ffffff;
+   border-left-color:#ffffff;
+   border-right-color:#000000;
+   border-bottom-color:#000000;
+   filter:progid:DXImageTransform.Microsoft.Gradient
+      (GradientType=0,StartColorStr='#ffffffff',EndColorStr='#ffeeddaa')}
+	  
+input.btnhov{
+   border-top-color:#c63;
+   border-left-color:#c63;
+   border-right-color:#930;
+   border-bottom-color:#930;}
+ 
+ 
+ .calendar
+{
+font-size: 9pt;
+font-family: Frutiger;
+margin-right:auto;
+ margin-left:auto;
+ 
+}
+ .calendar-month
+{
+font-size: 11pt;
+font-family: Frutiger;
+font-weight:bold;
+margin-right:auto;
+ margin-left:auto;
+ 
+}

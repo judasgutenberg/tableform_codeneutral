@@ -1,0 +1,19 @@
+	body  { font-family: arial;  font-size: 16px; color: 000000; letter-spacing:0.05em;}
+	h2 { font-family: arial;  font-size: 20px; color: 666666; letter-spacing:0.2em; }
+	h1 { font-family: arial;  font-size: 24px;  letter-spacing:0.3em; }
+	strong {letter-spacing:0.2em;}
+	.intro{ font-family: arial;  font-size: 10px; color: 000000; letter-spacing:0.15em; }
+	.nav{ font-family: arial;  font-size: 10px; color: 999999;   }
+	.navthere{ font-family: arial;  font-size: 10px; color: 000000;   font-weight:bold; background-color:dddddd;}
+	.caption{ font-family: arial;  font-size: 10px; color: 999999;   }
+	p.caption{ font-family: arial;  font-size: 10px; color: 999999;   }
+	strong {letter-spacing:0.2em;}
+	.overallheading  { font-family: arial;  font-size: 16px; color: 999999; letter-spacing:0.4em; }
+	.body  { font-family: arial;  font-size: 16px; color: 000000; letter-spacing:0.05em;  margin-left: 2em;}
+	
+	.title  { font-family: arial;  font-size: 28px; color: 000000; letter-spacing:0.3em; }
+	.subtitle  { font-family: arial;  font-size: 18px; color: 000000; letter-spacing:0.09em; }
+	.author  { font-family: arial;  font-size: 16px; color: 000000; letter-spacing:0.1em; }
+	.annotation  { font-family: arial;  font-size: 12px; color: 000000; letter-spacing:0.05em;  margin-left: 12em; margin-right: 12em;}
+	.annotationtitle { font-family: arial;  font-size: 12px; color: 000000; letter-spacing:0.05em;  margin-left: 10em; margin-right: 10em; font-weight:bold;}
+	.intro  { font-family: arial;  font-size: 16px; color: 000000; letter-spacing:0.08em;  margin-left: 4em; margin-right: 4em;}

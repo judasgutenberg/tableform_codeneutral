@@ -1,0 +1,6 @@
+ 
+
+AuthType Basic
+AuthUserFile "/var/www/vhosts/glamourboxx.com/.htpasswd"
+AuthName "Enter valid username and password!"
+require valid-user

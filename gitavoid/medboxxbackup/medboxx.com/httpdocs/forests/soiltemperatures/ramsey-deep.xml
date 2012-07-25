@@ -1,0 +1,49 @@
+
+<graph  xaxisminvalue="3/1/2001" xaxisname=" " yaxisname="degrees C" caption=" "  width="600"  yaxisminvalue="0" yaxismaxvalue="25" linecolor="999999" linethickness="4" pointlabel="O" bgcolor="eeeeee" >
+ 
+
+    <set date="4/11/2001" value="8.5"  /> 
+     <set date="4/26/2001" value="9.5"  /> 
+    <set date="5/15/2001" value="11.5"  /> 
+     <set date="5/23/2001" value="9"  /> 
+    <set date="6/15/2001" value="16"   /> 
+    <set date="7/2/2001" value="18"   /> 
+     <set date="7/27/2001" value="19"   /> 
+    <set date="8/21/2001" value="19"   />
+    <set date="9/6/2001" value="17.5"  /> 
+    <set date="9/19/2001" value="18.5"   /> 
+	<set date="9/25/2001" value="17"   />
+	 
+	 
+	 
+</graph>
+
+
+<graph bgcolor="cc9999" xaxisname=" " yaxisname="degrees C" caption=" "  width="600"  yaxisminvalue="0" yaxismaxvalue="25" linecolor="000000" linethickness="4" pointlabel="[]" mode="isolate" >
+
+    	<set date="4/11/2001" value="6.5"  />
+	<set date="4/26/2001" value="9"  /> 
+	<set date="5/15/2001" value="11"  /> 
+	<set date="5/23/2001" value="11"  /> 
+	<set date="6/15/2001" value="14"  />
+	<set date="7/2/2001" value="15"  />
+	<set date="7/27/2001" value="16.5"  />
+	<set date="8/21/2001" value="16.5"  />
+	<set date="9/6/2001" value="15.5"  />
+ 
+</graph>
+
+
+<graph bgcolor="cc9999" xaxisname=" " yaxisname="degrees C" caption=" "  width="600"  yaxisminvalue="0" yaxismaxvalue="25" linecolor="000000" linethickness="4" pointlabel=" " comment="best-fit curve" >
+
+    	<set date="4/11/2001" value="6.5"  />
+	<set date="4/26/2001" value="9"  /> 
+	<set date="5/15/2001" value="11"  /> 
+	<set date="5/23/2001" value="11.8"  /> 
+	<set date="6/15/2001" value="14.5"  />
+	<set date="7/2/2001" value="15.5"  />
+	<set date="7/27/2001" value="16.5"  />
+	<set date="8/21/2001" value="16.5"  />
+	<set date="9/6/2001" value="15.5"  />
+ 
+</graph>
