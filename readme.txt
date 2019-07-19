@@ -31,3 +31,5 @@ Check off tables to appear in the map
 Click the button "map selected tables"
 Now you will have a map -- you can drag tables around and drag foreign keys to primary keys to create relations.
 Click save map when done.
+
+This is all written in framework-free porcedural-style code, most of which predates AJAX.
