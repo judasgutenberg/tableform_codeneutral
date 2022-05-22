@@ -32,4 +32,4 @@ Click the button "map selected tables"
 Now you will have a map -- you can drag tables around and drag foreign keys to primary keys to create relations.
 Click save map when done.
 
-This is all written in framework-free procedural-style code, most of which predates the influence of AJAX.
+This is all written in framework-free procedural-style code, most of which predates the influence of AJAX, though it does a few AJAX-like things, and the interactive database designer is like a modern web app.
