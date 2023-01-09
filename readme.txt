@@ -1,4 +1,4 @@
-Tableform Ultraquick Start Guide
+#Tableform Ultraquick Start Guide
 
 Tableform is generic system for viewing and editing MySQL databases.
 Unlike other systems (such as PHPMyAdmin), it is relationship-aware,
