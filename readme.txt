@@ -4,7 +4,8 @@ Tableform is generic system for viewing and editing MySQL databases.
 Unlike other systems (such as PHPMyAdmin), it is relationship-aware,
 meaning that editors show sub-editors for related tables and that
 Foreign key references can be displayed in human readable form (for example:
-as a dropdown instead of as a meaningless number).
+as a dropdown instead of as a meaningless number). Also, lists of entities 
+related to the one under view are displayed.
 
 
 To install, copy all these files to a directory and edit tf_constants.php
